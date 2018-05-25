@@ -26,4 +26,14 @@ Para utilizar en la protoboard necesitamos lo siguiente:
 En la instalacion en la protoboard colocamos el cable de datos del servomotor en algún punto de la protoboard y desde la proto al pin arduino correspondiente, repetimos este paso con los demás servomotores. 
 El boton lo conectamos al pin (número de pin), después conectamos a 5V y GND, respectivamente. 
 Conectaremos los 4 leds a la protoboard y conectamos la una parte del led a GND y otra a 5V, repetimos con los demás leds. 
-Los leds irán conectados a los pines (7,6,5,4). Esto será  de ayuda para saber cuuál es el servo que se está ejecutando. 
+Los leds irán conectados a los pines (7,6,5,4). Esto será  de ayuda para saber cuuál es el servo que se está ejecutando.
+
+#Analisis de pruebas:
+Mientras el desarrollo de este software nos encontramos con el problema de mover algún servomotor, la conexión de Java a Arduino. 
+Utilizamos la memoria EEPROM y fue un conflicto utilizarla. 
+
+#Licencia:
+Este proyecto cuenta con licencia GNU General Public License (GNU GPL)
+
+#Expresiones de gratitud 
+Queremos agradecer al profesor Ing. Carlos Rafael Levy Roja
